@@ -27,4 +27,4 @@ jobs:
           pip install pytest
 
       - name: Run Tests
-        run: pytest
+        run: pytest main_test.py main_test2.py main_test3.py main_test4.py main_test5.py --verbose
